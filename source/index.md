@@ -25,7 +25,16 @@ includes:
   - insureds/create-one
   - insureds/update-one
   - insureds/delete-one
-  - vehicles
+  - policies/get-all
+  - policies/get-one
+  - policies/create-one
+  - policies/update-one
+  - policies/delete-one
+  - vehicles/get-all
+  - vehicles/get-one
+  - vehicles/create-one
+  - vehicles/update-one
+  - vehicles/delete-one
   - errors
 
 search: true
