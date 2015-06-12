@@ -22,19 +22,19 @@ curl "http://localhost:8080/api/insureds"
 > Success response
 
 ```json
-{
-    "insuredName": "Joe West",
-    "insuredAddress": "Bekasi",
-    "insuredPhone": "0218861234",
-    "insuredFax": "12345678",
-    "insuredHandphone": "0855778899",
-    "insuredEmail": "this@test.com",
-    "_links": {
-        "self": {
-            "href": "http://localhost:8080/api/insureds/f1466d54-d6bd-4718-9893-3fdba5bce606"
-        }
-    }
-}
+  {
+      "insuredName": "Joe West",
+      "insuredAddress": "Bekasi",
+      "insuredPhone": "0218861234",
+      "insuredFax": "12345678",
+      "insuredHandphone": "0855778899",
+      "insuredEmail": "this@test.com",
+      "_links": {
+          "self": {
+              "href": "http://localhost:8080/api/insureds/f1466d54-d6bd-4718-9893-3fdba5bce606"
+          }
+      }
+  }
 ```
 
 > Failed response
