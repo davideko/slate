@@ -5,19 +5,16 @@ This endpoint used to add new premiums own risks
 > Sample request
 
 ```shell
-curl "http://localhost:8080/api/premiums-coverages"
+curl "http://localhost:8080/api/premiums-own-risks"
   -X POST
   -H "Authorization: Bearer <token>"
   -H "Content-Type: application/json"
   -d '{
-        "premiumCoveragePk":{
+        "premiumOwnRiskPk":{
             "premium":"http://localhost:8080/api/premiums/1ffc0022-6e51-43b3-b4b5-649634fd086c",
-            "coverage":"http://localhost:8080/api/coverages/2"
+            "ownRisk":"http://localhost:8080/api/own-risks/1"
         },
-        "coverageBeginningDate":"2015-06-04",
-        "coverageExpiryDate":"2015-10-04",
-        "totalSumInsured":100000,
-        "thirdPartyLiability":100000
+        "ownRiskDescription":"10 % Claim Minimum"
       }'
 ```
 
@@ -25,25 +22,22 @@ curl "http://localhost:8080/api/premiums-coverages"
 
 ```json
 {
-    "coverageBeginningDate": "2015-06-04T00:00:00.000+0000",
-    "coverageExpiryDate": "2015-10-04T00:00:00.000+0000",
-    "totalSumInsured": 100000,
-    "thirdPartyLiability": 100000,
-    "coverage": {
-        "coverageType": "CASCO"
-    },
+    "ownRiskDescription": "10 % Claim Minimum",
     "premium": {
         "extentionCausal": "New cause"
     },
+    "ownRisk": {
+        "ownRiskType": "Earthquake"
+    },
     "_links": {
         "self": {
-            "href": "http://localhost:8080/api/premiums-coverages/1ffc0022-6e51-43b3-b4b5-649634fd086c@2"
+            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1"
         },
         "premium": {
-            "href": "http://localhost:8080/api/premiums-coverages/1ffc0022-6e51-43b3-b4b5-649634fd086c@2/premium"
+            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1/premium"
         },
-        "coverage": {
-            "href": "http://localhost:8080/api/premiums-coverages/1ffc0022-6e51-43b3-b4b5-649634fd086c@2/coverage"
+        "ownRisk": {
+            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1/ownRisk"
         }
     }
 }
@@ -59,16 +53,13 @@ curl "http://localhost:8080/api/premiums-coverages"
 
 ### HTTP Request
 
-`POST http://localhost:8080/api/premiums-coverages`
+`POST http://localhost:8080/api/premiums-own-risks`
 
 ### Parameters
 
 Parameter | Description
 --------- | -----------
-premiumCoveragePk | Composite object key
+premiumOwnRiskPk | Composite object key
 premium | Fill with premium object url id
-coverage | Fill with coverage object url id
-coverageBeginningDate | Fill with coverage beginning date
-coverageExpiryDate | Fill with coverage expiry date
-totalSumInsured | Fill with total sum insured value
-thirdPartyLiability | Fill with third party liability value
+ownRisk | Fill with own risk object url id
+ownRiskDescription | Fill with own risk description

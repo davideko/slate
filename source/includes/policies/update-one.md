@@ -32,15 +32,15 @@ curl "http://localhost:8080/api/policies/9e78484f-8f79-4124-867c-9f3c079a7522"
 
 ```json
 {
-  "policyBeginningDate": "2015-06-03T00:00:00.000+0000",
-  "policyExpiryDate": "2020-06-03T00:00:00.000+0000",
+    "policyBeginningDate": "2015-06-03T00:00:00.000+0000",
+    "policyExpiryDate": "2020-06-03T00:00:00.000+0000",
     "_links": {
         "self": {
-          "href": "http://localhost:8080/api/policies/9e78484f-8f79-4124-867c-9f3c079a7522{?projection}",
-          "templated": true
+            "href": "http://localhost:8080/api/policies/2b46fc11-8f45-43ac-a305-fbe1be4b7dae{?projection}",
+            "templated": true
         },
         "insured": {
-          "href": "http://localhost:8080/api/insureds/00e227f3-5469-4e3d-ad7a-4c79833358e4"
+            "href": "http://localhost:8080/api/insureds/00e227f3-5469-4e3d-ad7a-4c79833358e4"
         }
     }
 }

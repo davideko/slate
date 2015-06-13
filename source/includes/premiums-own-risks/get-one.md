@@ -5,7 +5,7 @@ This endpoint get a premium own risks by composite id.
 > Sample request
 
 ```shell
-curl "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@f3409adb-3354-4a31-a742-4cb4a9de2099"
+curl "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1"
   -H "Authorization: Bearer <token>"
 ```
 
@@ -22,13 +22,13 @@ curl "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-64963
     },
     "_links": {
         "self": {
-            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@f3409adb-3354-4a31-a742-4cb4a9de2099"
+            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1"
         },
         "premium": {
-            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@f3409adb-3354-4a31-a742-4cb4a9de2099/premium"
+            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1/premium"
         },
         "ownRisk": {
-            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@f3409adb-3354-4a31-a742-4cb4a9de2099/ownRisk"
+            "href": "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-649634fd086c@1/ownRisk"
         }
     }
 }

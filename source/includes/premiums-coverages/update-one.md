@@ -81,9 +81,6 @@ compositeId | It was composed by premium id + "@" + coverage id
 
 Parameter | Description
 --------- | -----------
-premiumCoveragePk | Composite object key
-premium | Fill with premium object url id
-coverage | Fill with coverage object url id
 coverageBeginningDate | Fill with coverage beginning date
 coverageExpiryDate | Fill with coverage expiry date
 totalSumInsured | Fill with total sum insured value

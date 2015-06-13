@@ -55,7 +55,7 @@ curl "http://localhost:8080/api/premiums-extended-coverages"
 
 ### HTTP Request
 
-`POST http://localhost:8080/api/premiums-coverages`
+`POST http://localhost:8080/api/premiums-extended-coverages`
 
 ### Parameters
 
