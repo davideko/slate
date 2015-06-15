@@ -114,9 +114,9 @@ premiumId | Selected premium id
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-extentionCausal | Fill with extention causal
-policy | Fill with policy object url id
-vehicle | Fill with vehicle object url id
-premiumStatus | Fill with premiumStatus object url id
+Parameter | Description | Format
+--------- | ----------- | ------
+extentionCausal | Fill with extention causal | String
+policy | Fill with policyobject url  | String
+vehicle | Fill with vehicle object url id | String
+premiumStatus | Fill with premiumStatus object url id | String

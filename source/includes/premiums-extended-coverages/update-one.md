@@ -75,7 +75,7 @@ compositeId | It was composed by premium id + "@" + extended coverage id
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-extendedCoverageBeginningDate | Fill with extended coverage beginning date
-extendedCoverageExpiryDate | Fill with extended coverage expiry date
+Parameter | Description | Format
+--------- | ----------- | ------
+extendedCoverageBeginningDate | Fill with extended coverage beginning date | String (date)
+extendedCoverageExpiryDate | Fill with extended coverage expiry date | String (date)

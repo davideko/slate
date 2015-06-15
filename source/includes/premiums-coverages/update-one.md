@@ -79,9 +79,9 @@ compositeId | It was composed by premium id + "@" + coverage id
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-coverageBeginningDate | Fill with coverage beginning date
-coverageExpiryDate | Fill with coverage expiry date
-totalSumInsured | Fill with total sum insured value
-thirdPartyLiability | Fill with third party liability value
+Parameter | Description | Format
+--------- | ----------- | ------
+coverageBeginningDate | Fill with coverage beginning date | String (date)
+coverageExpiryDate | Fill with coverage expiry date | String (date)
+totalSumInsured | Fill with total sum insured value | Numeric
+thirdPartyLiability | Fill with third party liability value | Numeric

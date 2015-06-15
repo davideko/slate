@@ -5,7 +5,7 @@ This endpoint get vehicle color by <code>vehicleColorId</code>
 > Sample request
 
 ```shell
-curl "href": "http://localhost:8080/api/vehicle-colors/1"
+curl "http://localhost:8080/api/vehicle-colors/1"
   -H "Authorization: Bearer <token>"
 ```
 

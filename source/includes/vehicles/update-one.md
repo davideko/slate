@@ -83,13 +83,13 @@ vehicleId | Selected vehicle id
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-engineNumber | Fill with vehicle engine number
-chassisNumber | Fill with vehicle chassis number
-certificateNumber | Fill with vehicle certificate number
-plateNumber | Fill with vehicle plate number
-yearModel | Fill with vehicle year model
-vehicleAssembly | Fill with vehicleAssembly object url id
-vehicleColor | Fill with vehicleColor object url id
-vehicleSerie | Fill with vehicleSerie object url id
+Parameter | Description | Format
+--------- | ----------- | ------
+engineNumber | Fill with vehicle engine number | String
+chassisNumber | Fill with vehicle chassis number | String
+certificateNumber | Fill with vehicle certificate number | String
+plateNumber | Fill with vehicle plate number | String
+yearModel | Fill with vehicle year model | String
+vehicleAssembly | Fill with vehicleAssembly object url id | String
+vehicleColor | Fill with vehicleColor object url id | String
+vehicleSerie | Fill with vehicleSerie object url id | String

@@ -59,10 +59,10 @@ curl "http://localhost:8080/api/premiums-extended-coverages"
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-premiumExtendedCoveragePk | Composite object key
-premium | Fill with premium object url id
-extendedCoverage | Fill with extended coverage object url id
-extendedCoverageBeginningDate | Fill with extended coverage beginning date
-extendedCoverageExpiryDate | Fill with extended coverage expiry date
+Parameter | Description | Format
+--------- | ----------- | ------
+premiumExtendedCoveragePk | Composite object key | String
+premium | Fill with premium object url id | String
+extendedCoverage | Fill with extended coverage object url id | String
+extendedCoverageBeginningDate | Fill with extended coverage beginning date | String (date)
+extendedCoverageExpiryDate | Fill with extended coverage expiry date | String (date)

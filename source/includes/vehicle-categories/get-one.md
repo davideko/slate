@@ -5,7 +5,7 @@ This endpoint get vehicle category by <code>vehicleCategoryId</code>
 > Sample request
 
 ```shell
-curl "href": "http://localhost:8080/api/vehicle-categories/1"
+curl "http://localhost:8080/api/vehicle-categories/1"
   -H "Authorization: Bearer <token>"
 ```
 

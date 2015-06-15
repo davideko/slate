@@ -63,12 +63,12 @@ curl "http://localhost:8080/api/premiums-coverages"
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-premiumCoveragePk | Composite object key
-premium | Fill with premium object url id
-coverage | Fill with coverage object url id
-coverageBeginningDate | Fill with coverage beginning date
-coverageExpiryDate | Fill with coverage expiry date
-totalSumInsured | Fill with total sum insured value
-thirdPartyLiability | Fill with third party liability value
+Parameter | Description | Format
+--------- | ----------- | ------
+premiumCoveragePk | Composite object key | String
+premium | Fill with premium object url id | String
+coverage | Fill with coverage object url id | String
+coverageBeginningDate | Fill with coverage beginning date | String (date)
+coverageExpiryDate | Fill with coverage expiry date | String (date)
+totalSumInsured | Fill with total sum insured value | Numeric
+thirdPartyLiability | Fill with third party liability value | Numeric

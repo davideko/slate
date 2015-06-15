@@ -5,7 +5,7 @@ This endpoint get vehicle brand by <code>vehicleBrandId</code>
 > Sample request
 
 ```shell
-curl "href": "http://localhost:8080/api/vehicle-brands/1"
+curl "http://localhost:8080/api/vehicle-brands/1"
   -H "Authorization: Bearer <token>"
 ```
 

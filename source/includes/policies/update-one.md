@@ -68,8 +68,8 @@ policyNumber | Selected policy number
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-policyBeginningDate | Fill with policy beginning date
-policyExpiryDate | Fill with policy expiry date
-insured | Fill with insured object url id
+Parameter | Description | Format
+--------- | ----------- | ------
+policyBeginningDate | Fill with policy beginning date | String (date)
+policyExpiryDate | Fill with policy expiry date | String (date)
+insured | Fill with insured object url id | String

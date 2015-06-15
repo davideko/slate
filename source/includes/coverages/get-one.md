@@ -5,7 +5,7 @@ This endpoint get coverages by <code>coverageId</code>
 > Sample request
 
 ```shell
-curl "href": "http://localhost:8080/api/coverages/1"
+curl "http://localhost:8080/api/coverages/1"
   -H "Authorization: Bearer <token>"
 ```
 

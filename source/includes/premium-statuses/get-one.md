@@ -5,7 +5,7 @@ This endpoint get premium status by <code>premiumStatusId</code>
 > Sample request
 
 ```shell
-curl "href": "http://localhost:8080/api/premium-statuses/1"
+curl "http://localhost:8080/api/premium-statuses/1"
   -H "Authorization: Bearer <token>"
 ```
 

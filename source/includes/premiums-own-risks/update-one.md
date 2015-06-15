@@ -72,6 +72,6 @@ compositeId | It was composed by premium id + "@" + own risk id
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-ownRiskDescription | Fill with own risk description
+Parameter | Description | Format
+--------- | ----------- | ------
+ownRiskDescription | Fill with own risk description | String

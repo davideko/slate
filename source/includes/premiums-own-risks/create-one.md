@@ -57,9 +57,9 @@ curl "http://localhost:8080/api/premiums-own-risks"
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-premiumOwnRiskPk | Composite object key
-premium | Fill with premium object url id
-ownRisk | Fill with own risk object url id
-ownRiskDescription | Fill with own risk description
+Parameter | Description | Format
+--------- | ----------- | ------
+premiumOwnRiskPk | Composite object key | String
+premium | Fill with premium object url id | String
+ownRisk | Fill with own risk object url id | String
+ownRiskDescription | Fill with own risk description | String
