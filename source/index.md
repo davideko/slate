@@ -368,7 +368,7 @@ curl "http://localhost:8080/oauth/token"
 }
 ```
 
-> Failed Response if wrong server client id or client secret
+> Failed response if wrong server client id or client secret
 
 ```json
 {
