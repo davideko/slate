@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/coverages/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/coverages/<coverageId>`
+`GET http://localhost:8080/api/coverages/{coverageId}`
 
 ### URL Parameters
 

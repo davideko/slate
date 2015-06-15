@@ -15,7 +15,7 @@ This endpoint will create new employee role.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -45,6 +45,6 @@ This endpoint will create new employee role.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 employeeRolePk | Composite key object | Object

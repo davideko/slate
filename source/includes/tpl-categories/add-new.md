@@ -12,7 +12,7 @@ This endpoint will create new TPL category.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -31,6 +31,6 @@ This endpoint will create new TPL category.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 tplCategoryType | New TPL category type | string

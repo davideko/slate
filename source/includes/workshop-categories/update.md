@@ -23,7 +23,7 @@ This endpoint will update workshop category by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -44,12 +44,12 @@ This endpoint will update workshop category by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopCategoryId | Workshop category ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopCategoryType | New workshop category type | string

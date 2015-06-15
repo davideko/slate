@@ -9,7 +9,7 @@ This endpoint retrieves specific employee.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -31,6 +31,6 @@ This endpoint retrieves specific employee.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 employeeId | Employee ID to retrieve | string

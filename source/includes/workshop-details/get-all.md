@@ -10,7 +10,7 @@ This endpoint retrieves all workshop details.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {

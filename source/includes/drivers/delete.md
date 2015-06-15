@@ -9,12 +9,14 @@ This endpoint will delete driver by ID.
   -H "Authorization: Bearer <token>"
 ```
 
+> Success response <code>HTTP 204 No Content</code>
+
 ### HTTP Request
 
 `DELETE http://localhost:8080/api/drivers/{driverId}`
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 driverId | Driver ID to delete | string

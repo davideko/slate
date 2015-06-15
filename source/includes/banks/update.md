@@ -23,7 +23,7 @@ This endpoint will update bank by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -44,12 +44,12 @@ This endpoint will update bank by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 bankId | Bank ID to update | integer
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 bankName | New bank name | string

@@ -19,7 +19,7 @@ This endpoint will create new TPL.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -48,7 +48,7 @@ This endpoint will create new TPL.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 tplName | New tpl name | string
 tplAddress | New tpl address | string

@@ -21,7 +21,7 @@ This endpoint will create new workshop fee.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -49,7 +49,7 @@ This endpoint will create new workshop fee.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 pph23 | New pph23 | integer,
 sparePartServicePercentage | New sparepart service percentage | integer

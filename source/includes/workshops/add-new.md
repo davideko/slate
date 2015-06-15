@@ -32,7 +32,7 @@ This endpoint will create new workshop.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -84,7 +84,7 @@ This endpoint will create new workshop.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopName | New workshop name | string
 workshopAddress | New workshop address | string

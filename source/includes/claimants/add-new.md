@@ -18,7 +18,7 @@ This endpoint will create new claimant.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -46,7 +46,7 @@ This endpoint will create new claimant.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 claimantName | New claimant name | string
 claimantAddress | New claimant address | string

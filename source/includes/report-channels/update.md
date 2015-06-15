@@ -23,7 +23,7 @@ This endpoint update report channel by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -44,12 +44,12 @@ This endpoint update report channel by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 reportChannelId | Report channel ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 reportChannelType | New report channel type | string

@@ -28,7 +28,7 @@ curl "http://localhost:8080/api/reports"
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -154,7 +154,7 @@ curl "http://localhost:8080/api/reports"
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 reportDate | Date of report | string
 reportedBy | Name of reporter | string

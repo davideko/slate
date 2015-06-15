@@ -17,7 +17,7 @@ This endpoint will create new workshop detail.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -41,7 +41,7 @@ This endpoint will create new workshop detail.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopManager | New Workshop manager name | string
 workshopManagerHandphone | New workshop manager handphone | string

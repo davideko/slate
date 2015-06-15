@@ -17,7 +17,7 @@ This endpoint will update TPL by ID.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 
@@ -33,10 +33,10 @@ This endpoint will update TPL by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------

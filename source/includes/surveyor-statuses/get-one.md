@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/surveyor-statuses/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/surveyor-statuses/<surveyorStatusId>`
+`GET http://localhost:8080/api/surveyor-statuses/{surveyorStatusId}`
 
 ### URL Parameters
 

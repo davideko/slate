@@ -24,7 +24,7 @@ curl "href": "http://localhost:8080/api/own-risks/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/own-risks/<ownRiskId>`
+`GET http://localhost:8080/api/own-risks/{ownRiskId}`
 
 ### URL Parameters
 

@@ -9,12 +9,14 @@ This endpoint will delete workshop category by ID.
   -H "Authorization: Bearer <token>"
 ```
 
+> Success response <code>HTTP 204 No Content</code>
+
 ### HTTP Request
 
 `DELETE http://localhost:8080/api/workshop-categories/{workshopCategoryId}`
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopCategoryId | Workshop category ID to delete | string

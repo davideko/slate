@@ -9,7 +9,7 @@ This endpoint retrieves specific TPL.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -38,6 +38,6 @@ This endpoint retrieves specific TPL.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 tplId | TPL ID to retrieve | string

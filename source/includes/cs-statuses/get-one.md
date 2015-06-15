@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/cs-statuses/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/cs-statuses/<csStatusId>`
+`GET http://localhost:8080/api/cs-statuses/{csStatusId}`
 
 ### URL Parameters
 

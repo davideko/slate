@@ -13,7 +13,7 @@ curl "http://localhost:8080/api/loss-causals/1"
 
 ### HTTP Request
 
-`DELETE http://localhost:8080/api/loss-causals/<lossCausalId>`
+`DELETE http://localhost:8080/api/loss-causals/{lossCausalId}`
 
 ### URL Parameters
 

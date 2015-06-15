@@ -10,7 +10,7 @@ This endpoint retrieves all workshop categories.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {

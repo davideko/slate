@@ -40,9 +40,9 @@ curl "http://localhost:8080/api/own-risks/1"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/own-risks/<ownRiskId>`
+`PUT http://localhost:8080/api/own-risks/{ownRiskId}`
 
-`PATCH http://localhost:8080/api/own-risks/<ownRiskId>`
+`PATCH http://localhost:8080/api/own-risks/{ownRiskId}`
 
 ### URL Parameters
 

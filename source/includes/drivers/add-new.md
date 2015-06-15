@@ -19,7 +19,7 @@ This endpoint will create new driver.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -49,7 +49,7 @@ This endpoint will create new driver.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 driverName | New driver name | string
 driverAddress | New driver address | string

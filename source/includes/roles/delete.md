@@ -9,12 +9,14 @@ This endpoint will delete role by ID.
   -H "Authorization: Bearer <token>"
 ```
 
+> Success response <code>HTTP 204 No Content</code>
+
 ### HTTP Request
 
 `DELETE http://localhost:8080/api/roles/{roleId}`
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 roleId | Role ID to delete | string

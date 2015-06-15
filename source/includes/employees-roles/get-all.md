@@ -10,7 +10,7 @@ This endpoint retrieves all employee role.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {

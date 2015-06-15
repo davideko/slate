@@ -24,7 +24,7 @@ This endpoint will update TIN by tax identification number.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -46,13 +46,13 @@ This endpoint will update TIN by tax identification number.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 taxIdentificatinNumber | Tax identification number to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 taxIdentificationName | New tax identification name | string
 taxIdentificationAddress | New tax identification address | string

@@ -9,12 +9,14 @@ This endpoint will delete workshop fee by ID.
   -H "Authorization: Bearer <token>"
 ```
 
+> Success response <code>HTTP 204 No Content</code>
+
 ### HTTP Request
 
 `DELETE http://localhost:8080/api/workshop-fees/{workshopFeeId}`
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopFeeId | Workshop fee ID to delete | string

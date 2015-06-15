@@ -9,12 +9,14 @@ This endpoint will delete TIN by ID.
   -H "Authorization: Bearer <token>"
 ```
 
+> Success response <code>HTTP 204 No Content</code>
+
 ### HTTP Request
 
 `DELETE http://localhost:8080/api/tins/{taxIdentificationNumber}`
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 taxIdentificationNumber | Tax identification number to delete | string

@@ -29,7 +29,7 @@ This endpoint will update claimant by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -59,13 +59,13 @@ This endpoint will update claimant by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 claimantId | Claimant ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 claimantName | New claimant name | string
 claimantAddress | New claimant address | string

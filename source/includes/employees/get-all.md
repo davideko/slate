@@ -10,7 +10,7 @@ This endpoint retrieves all employees.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {

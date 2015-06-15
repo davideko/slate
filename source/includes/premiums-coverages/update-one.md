@@ -59,9 +59,9 @@ curl "http://localhost:8080/api/premiums-coverages/1ffc0022-6e51-43b3-b4b5-64963
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/premiums-coverages/<compositeId>`
+`PUT http://localhost:8080/api/premiums-coverages/{compositeId}`
 
-`PATCH http://localhost:8080/api/premiums-coverages/<compositeId>`
+`PATCH http://localhost:8080/api/premiums-coverages/{compositeId}`
 
 ### URL Parameters
 

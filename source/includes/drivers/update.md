@@ -31,7 +31,7 @@ This endpoint will update driver by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -63,13 +63,13 @@ This endpoint will update driver by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 driverId | Driver ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 driverName | New driver name | string
 driverAddress | New driver address | string

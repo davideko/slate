@@ -14,7 +14,7 @@ curl "http://localhost:8080/api/policies/9e78484f-8f79-4124-867c-9f3c079a7522"
 
 ### HTTP Request
 
-`DELETE http://localhost:8080/api/policies/<policyNumber>`
+`DELETE http://localhost:8080/api/policies/{policyNumber}`
 
 ### URL Parameters
 

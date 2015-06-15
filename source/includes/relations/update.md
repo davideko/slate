@@ -23,7 +23,7 @@ This endpoint will update Relation by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -44,12 +44,12 @@ This endpoint will update Relation by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 relationId | Relation ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 relationType | New relation type | string

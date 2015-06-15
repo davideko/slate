@@ -10,7 +10,7 @@ This endpoint retrieves all bank.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {

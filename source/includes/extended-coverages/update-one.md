@@ -41,9 +41,9 @@ curl "http://localhost:8080/api/extended-coverages/1"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/extended-coverages/<extendedCoverageId>`
+`PUT http://localhost:8080/api/extended-coverages/{extendedCoverageId}`
 
-`PATCH http://localhost:8080/api/extended-coverages/<extendedCoverageId>`
+`PATCH http://localhost:8080/api/extended-coverages/{extendedCoverageId}`
 
 ### URL Parameters
 

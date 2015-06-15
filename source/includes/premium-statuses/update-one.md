@@ -41,9 +41,9 @@ curl "http://localhost:8080/api/premium-statuses/1"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/premium-statuses/<premiumStatusId>`
+`PUT http://localhost:8080/api/premium-statuses/{premiumStatusId}`
 
-`PATCH http://localhost:8080/api/premium-statuses/<premiumStatusId>`
+`PATCH http://localhost:8080/api/premium-statuses/{premiumStatusId}`
 
 ### URL Parameters
 

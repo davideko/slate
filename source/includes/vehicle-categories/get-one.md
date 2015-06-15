@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/vehicle-categories/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/vehicle-categories/<vehicleCategoryId>`
+`GET http://localhost:8080/api/vehicle-categories/{vehicleCategoryId}`
 
 ### URL Parameters
 

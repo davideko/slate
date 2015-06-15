@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/premium-statuses/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/premium-statuses/<premiumStatusId>`
+`GET http://localhost:8080/api/premium-statuses/{premiumStatusId}`
 
 ### URL Parameters
 

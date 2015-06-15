@@ -41,9 +41,9 @@ curl "http://localhost:8080/api/loss-causals/1"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/loss-causals/<lossCausalId>`
+`PUT http://localhost:8080/api/loss-causals/{lossCausalId}`
 
-`PATCH http://localhost:8080/api/loss-causals/<lossCausalId>`
+`PATCH http://localhost:8080/api/loss-causals/{lossCausalId}`
 
 ### URL Parameters
 

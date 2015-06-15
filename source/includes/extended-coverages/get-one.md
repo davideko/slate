@@ -24,7 +24,7 @@ curl http://localhost:8080/api/extended-coverages/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/extended-coverages/<extendedCoverageId>`
+`GET http://localhost:8080/api/extended-coverages/{extendedCoverageId}`
 
 ### URL Parameters
 

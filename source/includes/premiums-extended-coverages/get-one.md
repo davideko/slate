@@ -37,7 +37,7 @@ curl "http://localhost:8080/api/premiums-extended-coverages/1ffc0022-6e51-43b3-b
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/premiums-extended-coverages/<compositeId>`
+`GET http://localhost:8080/api/premiums-extended-coverages/{compositeId}`
 
 ### URL Parameters
 

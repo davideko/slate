@@ -9,7 +9,7 @@ This endpoint retrieves specific city.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -28,6 +28,6 @@ This endpoint retrieves specific city.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 cityId | City ID to retrieve | string

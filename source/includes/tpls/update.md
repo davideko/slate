@@ -30,7 +30,7 @@ This endpoint will update TPL by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -61,13 +61,13 @@ This endpoint will update TPL by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 tplId | TPL id to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 tplName | New tpl name | string
 tplAddress | New tpl address | string

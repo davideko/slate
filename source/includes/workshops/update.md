@@ -43,7 +43,7 @@ This endpoint will update workshop by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -97,13 +97,13 @@ This endpoint will update workshop by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopId | Workshop ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopName | New workshop name | string
 workshopAddress | New workshop address | string

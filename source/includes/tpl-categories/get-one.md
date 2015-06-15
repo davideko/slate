@@ -9,7 +9,7 @@ This endpoint retrieves specific TPL Category.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -28,6 +28,6 @@ This endpoint retrieves specific TPL Category.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 tplCategoryId | TPL category to retrieve | integer

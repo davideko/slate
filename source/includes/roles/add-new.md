@@ -12,7 +12,7 @@ This endpoint will create new role.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -31,6 +31,6 @@ This endpoint will create new role.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 roleType | New role type | string

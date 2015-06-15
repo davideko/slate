@@ -203,18 +203,6 @@ includes:
   - vehicles/update-one
   - vehicles/delete-one
 
-  - vehicle-series/get-all
-  - vehicle-series/get-one
-  - vehicle-series/create-one
-  - vehicle-series/update-one
-  - vehicle-series/delete-one
-
-  - vehicle-models/get-all
-  - vehicle-models/get-one
-  - vehicle-models/create-one
-  - vehicle-models/update-one
-  - vehicle-models/delete-one
-
   - vehicle-assemblies/get-all
   - vehicle-assemblies/get-one
   - vehicle-assemblies/create-one
@@ -227,17 +215,29 @@ includes:
   - vehicle-brands/update-one
   - vehicle-brands/delete-one
 
+  - vehicle-categories/get-all
+  - vehicle-categories/get-one
+  - vehicle-categories/create-one
+  - vehicle-categories/update-one
+  - vehicle-categories/delete-one
+
   - vehicle-colors/get-all
   - vehicle-colors/get-one
   - vehicle-colors/create-one
   - vehicle-colors/update-one
   - vehicle-colors/delete-one
 
-  - vehicle-categories/get-all
-  - vehicle-categories/get-one
-  - vehicle-categories/create-one
-  - vehicle-categories/update-one
-  - vehicle-categories/delete-one
+  - vehicle-models/get-all
+  - vehicle-models/get-one
+  - vehicle-models/create-one
+  - vehicle-models/update-one
+  - vehicle-models/delete-one
+
+  - vehicle-series/get-all
+  - vehicle-series/get-one
+  - vehicle-series/create-one
+  - vehicle-series/update-one
+  - vehicle-series/delete-one
 
   - workshops/get-all
   - workshops/get-one
@@ -337,14 +337,15 @@ curl "http://localhost:8080/oauth/token"
 
 Parameter | Description
 --------- | -----------
-clientId | client id.
-clientSecret | client secret.
-grant_type | Set to password.
-username | user username.
-password | user password.
+clientId | client id
+clientSecret | client secret
+grant_type | Set to password
+username | user username
+password | user password
 
 
 ## Refresh Token
+
 This endpoint used to retrieve API <code>token</code> using <code>refresh_token</code> 
 
 > Sample request
@@ -386,6 +387,7 @@ curl "http://localhost:8080/oauth/token"
     "error": "invalid_grant",
     "error_description": "Invalid refresh token: <refresh_token>"
 }
+```
 
 ### HTTP Request
 
@@ -395,5 +397,5 @@ curl "http://localhost:8080/oauth/token"
 
 Parameter | Description
 --------- | -----------
-grant_type| Set to refresh_token.
-refresh_token | Fill with refresh token from request token.
+grant_type| Set to refresh_token
+refresh_token | Fill with refresh token from request token

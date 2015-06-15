@@ -10,7 +10,7 @@ This endpoint retrieves all TINs.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {

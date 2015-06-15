@@ -13,7 +13,7 @@ curl "http://localhost:8080/api/vehicle-categories/1"
 
 ### HTTP Request
 
-`DELETE http://localhost:8080/api/vehicle-categories/<vehicleCategoryId>`
+`DELETE http://localhost:8080/api/vehicle-categories/{vehicleCategoryId}`
 
 ### URL Parameters
 

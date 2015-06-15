@@ -12,7 +12,7 @@ This endpoint will create new relation.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -31,6 +31,6 @@ This endpoint will create new relation.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 relationType | New relation type | string

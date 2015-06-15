@@ -12,7 +12,7 @@ This endpoint will create new report channel.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -31,6 +31,6 @@ This endpoint will create new report channel.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 reportChannelType | New report channel type | string

@@ -9,7 +9,7 @@ This endpoint retrieves specific bank.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -28,6 +28,6 @@ This endpoint retrieves specific bank.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 bankId | Bank ID to retrieve | string

@@ -94,9 +94,9 @@ curl "http://localhost:8080/api/premiums/1ffc0022-6e51-43b3-b4b5-649634fd086c"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/premiums/<premiumId>`
+`PUT http://localhost:8080/api/premiums/{premiumId}`
 
-`PATCH http://localhost:8080/api/premiums/<premiumId>`
+`PATCH http://localhost:8080/api/premiums/{premiumId}`
 
 ### URL Parameters
 

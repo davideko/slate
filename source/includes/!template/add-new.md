@@ -9,7 +9,7 @@ This endpoint will create new .
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 
@@ -23,5 +23,5 @@ This endpoint will create new .
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------

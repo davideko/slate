@@ -9,7 +9,7 @@ This endpoint retrieves specific role.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -28,6 +28,6 @@ This endpoint retrieves specific role.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 roleId | Role ID to retrieve | integer

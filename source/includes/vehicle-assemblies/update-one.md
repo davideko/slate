@@ -41,9 +41,9 @@ curl "http://localhost:8080/api/vehicle-assemblies/1"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/vehicle-assemblies/<vehicleAssemblyId>`
+`PUT http://localhost:8080/api/vehicle-assemblies/{vehicleAssemblyId}`
 
-`PATCH http://localhost:8080/api/vehicle-assemblies/<vehicleAssemblyId>`
+`PATCH http://localhost:8080/api/vehicle-assemblies/{vehicleAssemblyId}`
 
 ### URL Parameters
 

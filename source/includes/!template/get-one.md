@@ -9,7 +9,7 @@ This endpoint retrieves specific .
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 
@@ -23,5 +23,5 @@ This endpoint retrieves specific .
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------

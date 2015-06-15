@@ -23,7 +23,7 @@ This endpoint will update role by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -44,12 +44,12 @@ This endpoint will update role by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 roleId | Role ID to update | integer
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 roleType | New role type | string

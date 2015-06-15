@@ -41,9 +41,9 @@ curl "http://localhost:8080/api/workshop-statuses/1"
 
 ### HTTP Request
 
-`PUT http://localhost:8080/api/workshop-statuses/<workshopStatusId>`
+`PUT http://localhost:8080/api/workshop-statuses/{workshopStatusId}`
 
-`PATCH http://localhost:8080/api/workshop-statuses/<workshopStatusId>`
+`PATCH http://localhost:8080/api/workshop-statuses/{workshopStatusId}`
 
 ### URL Parameters
 

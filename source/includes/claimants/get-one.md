@@ -9,7 +9,7 @@ This endpoint retrieves specific claimant.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -37,6 +37,6 @@ This endpoint retrieves specific claimant.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 claimantId | Claimant ID to retrieve | string

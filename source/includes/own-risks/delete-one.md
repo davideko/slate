@@ -13,7 +13,7 @@ curl "http://localhost:8080/api/own-risks/1"
 
 ### HTTP Request
 
-`DELETE http://localhost:8080/api/own-risks/<ownRiskId>`
+`DELETE http://localhost:8080/api/own-risks/{ownRiskId}`
 
 ### URL Parameters
 

@@ -9,7 +9,7 @@ This endpoint retrieves specific TIN.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -29,6 +29,6 @@ This endpoint retrieves specific TIN.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 taxIdentificationNumber | Tax identification number to retrieve | string

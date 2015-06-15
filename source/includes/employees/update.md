@@ -23,7 +23,7 @@ This endpoint will update employee by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -47,12 +47,12 @@ This endpoint will update employee by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 employeeId | Employee ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 employeeName | New employee name | string

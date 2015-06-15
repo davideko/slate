@@ -8,7 +8,7 @@ This endpoint retrieves specific workshop category.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -27,6 +27,6 @@ This endpoint retrieves specific workshop category.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopCategoryId | Workshop category ID to retrieve | string

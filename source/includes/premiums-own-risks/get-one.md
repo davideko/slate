@@ -36,7 +36,7 @@ curl "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-64963
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/premiums-own-risks/<compositeId>`
+`GET http://localhost:8080/api/premiums-own-risks/{compositeId}`
 
 ### URL Parameters
 

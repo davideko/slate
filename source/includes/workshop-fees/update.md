@@ -32,7 +32,7 @@ This endpoint will update workshop fee by ID.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -62,13 +62,13 @@ This endpoint will update workshop fee by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 workshopFeeId | Workshop fee ID to update | string
 
 ### Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 pph23 | New pph23 | integer,
 sparePartServicePercentage | New sparepart service percentage | integer

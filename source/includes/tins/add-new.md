@@ -14,7 +14,7 @@ This endpoint will create new TIN.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -34,7 +34,7 @@ This endpoint will create new TIN.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 taxIdentificationNumber | New tax identification number | string
 taxIdentificationName | New tax identification name | string

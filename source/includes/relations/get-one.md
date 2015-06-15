@@ -9,7 +9,7 @@ This endpoint retrieves specific relation.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -28,6 +28,6 @@ This endpoint retrieves specific relation.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 relationId | Relation ID to retrieve | string

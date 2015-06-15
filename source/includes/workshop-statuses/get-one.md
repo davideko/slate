@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/workshop-statuses/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/workshop-statuses/<workshopStatusId>`
+`GET http://localhost:8080/api/workshop-statuses/{workshopStatusId}`
 
 ### URL Parameters
 

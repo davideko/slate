@@ -24,7 +24,7 @@ curl "href": "http://localhost:8080/api/vehicle-assemblies/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/vehicle-assemblies/<vehicleAssemblyId>`
+`GET http://localhost:8080/api/vehicle-assemblies/{vehicleAssemblyId}`
 
 ### URL Parameters
 

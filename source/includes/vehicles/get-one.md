@@ -39,7 +39,7 @@ curl "http://localhost:8080/api/vehicles/937d15ef-2c04-40de-a5e6-3a34d5031345"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/vehicles/<vehicleId>`
+`GET http://localhost:8080/api/vehicles/{vehicleId}`
 
 ### URL Parameters
 

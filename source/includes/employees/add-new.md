@@ -12,7 +12,7 @@ This endpoint will create new employee.
   }'
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -34,6 +34,6 @@ This endpoint will create new employee.
 
 ###  Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 employeeName | New employee name | string

@@ -9,7 +9,7 @@ This endpoint will delete  by ID.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 > Failed response
 
@@ -19,5 +19,5 @@ This endpoint will delete  by ID.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------

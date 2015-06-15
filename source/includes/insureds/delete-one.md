@@ -14,7 +14,7 @@ curl "http://localhost:8080/api/insureds/f1466d54-d6bd-4718-9893-3fdba5bce606"
 
 ### HTTP Request
 
-`DELETE http://localhost:8080/api/insureds/<insuredId>`
+`DELETE http://localhost:8080/api/insureds/{insuredId}`
 
 ### URL Parameters
 

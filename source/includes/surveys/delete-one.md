@@ -13,7 +13,7 @@ curl "http://localhost:8080/api/surveys/1"
 
 ### HTTP Request
 
-`DELETE http://localhost:8080/api/surveys/<surveyId>`
+`DELETE http://localhost:8080/api/surveys/{surveyId}`
 
 ### URL Parameters
 

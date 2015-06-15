@@ -8,7 +8,7 @@ curl "http://localhost:8080/api/reports/search?query=reportDate:2015-05-08"
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -143,7 +143,7 @@ curl "http://localhost:8080/api/reports/search?query=reportDate:2015-05-08"
 `GET http://localhost:8080/api/reports/search?{query}`
 
 ### URL Parameters
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 query | Query String | string
 

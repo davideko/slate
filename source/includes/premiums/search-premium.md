@@ -98,11 +98,11 @@ For example:
 
 ### URL Parameters
 
-Parameter | Description 
---------- | ----------- 
-policyNumber | Inserted policy number
-engineNumber | Inserted engine number
-plateNumber | Inserted plate number
-chassisNumber | Inserted chassis number
-certificateNumber | Inserted certificate number
-insuredName | Inserted insured name
+Parameter | Description | Format
+--------- | ----------- | ------
+policyNumber | Inserted policy number | String
+engineNumber | Inserted engine number | String
+plateNumber | Inserted plate number | String
+chassisNumber | Inserted chassis number | String
+certificateNumber | Inserted certificate number | String
+insuredName | Inserted insured name | String

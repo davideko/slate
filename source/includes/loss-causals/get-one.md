@@ -24,7 +24,7 @@ curl "http://localhost:8080/api/loss-causals/1"
 
 ### HTTP Request
 
-`GET http://localhost:8080/api/loss-causals/<lossCausalId>`
+`GET http://localhost:8080/api/loss-causals/{lossCausalId}`
 
 ### URL Parameters
 

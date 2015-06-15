@@ -9,7 +9,7 @@ This endpoint retrieves specific driver.
   -H "Authorization: Bearer <token>"
 ```
 
-> Sucessful response
+> Success response
 
 ```json
 {
@@ -39,6 +39,6 @@ This endpoint retrieves specific driver.
 
 ### URL Parameters
 
-Parameter | Description | Data Type
+Parameter | Description | Format
 --------- | ----------- | ---------
 driverId | Driver ID to retrieve | string
