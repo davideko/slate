@@ -1,37 +1,20 @@
 ---
-title: BCA Insurance API Documentation
+title: API Documentation
 
 language_tabs:
   - shell
 
 toc_footers:
+  - <a href='#'>Sign Up for a Developer Key</a>
   - <a href='http://github.com/tripit/slate'>Documentation Powered by Slate</a>
 
 includes:
 
-  - accidents/get-all
+    - accidents/get-all
   - accidents/get-one
   - accidents/create-one
   - accidents/update-one
   - accidents/delete-one
-
-  - banks/get-all
-  - banks/get-one
-  - banks/add-new
-  - banks/update
-  - banks/delete
-
-  - cities/get-all
-  - cities/get-one
-  - cities/add-new
-  - cities/update
-  - cities/delete
-
-  - claimants/get-all
-  - claimants/get-one
-  - claimants/add-new
-  - claimants/update
-  - claimants/delete
 
   - coverages/get-all
   - coverages/get-one
@@ -45,25 +28,23 @@ includes:
   - cs-statuses/update-one
   - cs-statuses/delete-one
 
-  - drivers/get-all
-  - drivers/get-one
-  - drivers/add-new
-  - drivers/update
-  - drivers/delete
+  - report-statuses/get-all
+  - report-statuses/get-one
+  - report-statuses/create-one
+  - report-statuses/update-one
+  - report-statuses/delete-one
 
-  - employees/get-all
-  - employees/get-one
-  - employees/add-new
-  - employees/update
-  - employees/delete
+  - surveyor-statuses/get-all
+  - surveyor-statuses/get-one
+  - surveyor-statuses/create-one
+  - surveyor-statuses/update-one
+  - surveyor-statuses/delete-one
 
-  - employees-roles/get-all
-  - employees-roles/get-one
-  - employees-roles/add-new
-  - employees-roles/update
-  - employees-roles/delete
-
-  - errors
+  - workshop-statuses/get-all
+  - workshop-statuses/get-one
+  - workshop-statuses/create-one
+  - workshop-statuses/update-one
+  - workshop-statuses/delete-one
 
   - extended-coverages/get-all
   - extended-coverages/get-one
@@ -136,66 +117,11 @@ includes:
   - premium-statuses/update-one
   - premium-statuses/delete-one
 
-  - relations/get-all
-  - relations/get-one
-  - relations/add-new
-  - relations/update
-  - relations/delete
-
-  - reports/get-all
-  - reports/get-one
-  - reports/search
-  - reports/add-new
-  - reports/update
-  - reports/delete
-
-  - report-channels/get-all
-  - report-channels/get-one
-  - report-channels/add-new
-  - report-channels/update
-  - report-channels/delete
-
-  - report-statuses/get-all
-  - report-statuses/get-one
-  - report-statuses/create-one
-  - report-statuses/update-one
-  - report-statuses/delete-one
-
-  - roles/get-all
-  - roles/get-one
-  - roles/add-new
-  - roles/update
-  - roles/delete
-
   - surveys/get-all
   - surveys/get-one
   - surveys/create-one
   - surveys/update-one
   - surveys/delete-one
-
-  - surveyor-statuses/get-all
-  - surveyor-statuses/get-one
-  - surveyor-statuses/create-one
-  - surveyor-statuses/update-one
-  - surveyor-statuses/delete-one
-
-  - tins/get-all
-  - tins/get-one
-  - tins/add-new
-  - tins/update
-  - tins/delete
-
-  - tpls/get-all
-  - tpls/get-one
-  - tpls/add-new
-  - tpls/update
-  - tpls/delete
-
-  - tpl-categories/get-all
-  - tpl-categories/get-one
-  - tpl-categories/add-new
-  - tpl-categories/update
-  - tpl-categories/delete
 
   - vehicles/get-all
   - vehicles/get-one
@@ -227,17 +153,48 @@ includes:
   - vehicle-brands/update-one
   - vehicle-brands/delete-one
 
+  - vehicle-categories/get-all
+  - vehicle-categories/get-one
+  - vehicle-categories/create-one
+  - vehicle-categories/update-one
+  - vehicle-categories/delete-one
+
   - vehicle-colors/get-all
   - vehicle-colors/get-one
   - vehicle-colors/create-one
   - vehicle-colors/update-one
   - vehicle-colors/delete-one
 
-  - vehicle-categories/get-all
-  - vehicle-categories/get-one
-  - vehicle-categories/create-one
-  - vehicle-categories/update-one
-  - vehicle-categories/delete-one
+  - reports/get-all
+  - reports/get-one
+  - reports/search
+  - reports/add-new
+  - reports/update
+  - reports/delete
+
+  - report-channels/get-all
+  - report-channels/get-one
+  - report-channels/add-new
+  - report-channels/update
+  - report-channels/delete
+
+  - tpls/get-all
+  - tpls/get-one
+  - tpls/add-new
+  - tpls/update
+  - tpls/delete
+
+  - tpl-categories/get-all
+  - tpl-categories/get-one
+  - tpl-categories/add-new
+  - tpl-categories/update
+  - tpl-categories/delete
+
+  - claimants/get-all
+  - claimants/get-one
+  - claimants/add-new
+  - claimants/update
+  - claimants/delete
 
   - workshops/get-all
   - workshops/get-one
@@ -251,23 +208,67 @@ includes:
   - workshop-categories/update
   - workshop-categories/delete
 
-  - workshop-details/get-all
-  - workshop-details/get-one
-  - workshop-details/add-new
-  - workshop-details/update
-  - workshop-details/delete
-
   - workshop-fees/get-all
   - workshop-fees/get-one
   - workshop-fees/add-new
   - workshop-fees/update
   - workshop-fees/delete
 
-  - workshop-statuses/get-all
-  - workshop-statuses/get-one
-  - workshop-statuses/create-one
-  - workshop-statuses/update-one
-  - workshop-statuses/delete-one
+  - workshop-details/get-all
+  - workshop-details/get-one
+  - workshop-details/add-new
+  - workshop-details/update
+  - workshop-details/delete
+
+  - tins/get-all
+  - tins/get-one
+  - tins/add-new
+  - tins/update
+  - tins/delete
+
+  - banks/get-all
+  - banks/get-one
+  - banks/add-new
+  - banks/update
+  - banks/delete
+
+  - cities/get-all
+  - cities/get-one
+  - cities/add-new
+  - cities/update
+  - cities/delete
+
+  - drivers/get-all
+  - drivers/get-one
+  - drivers/add-new
+  - drivers/update
+  - drivers/delete
+
+  - relations/get-all
+  - relations/get-one
+  - relations/add-new
+  - relations/update
+  - relations/delete
+
+  - employees/get-all
+  - employees/get-one
+  - employees/add-new
+  - employees/update
+  - employees/delete
+
+  - employees-roles/get-all
+  - employees-roles/get-one
+  - employees-roles/add-new
+  - employees-roles/update
+  - employees-roles/delete
+
+  - roles/get-all
+  - roles/get-one
+  - roles/add-new
+  - roles/update
+  - roles/delete
+
+  - errors
 
 search: true
 ---
@@ -283,7 +284,7 @@ BCA API uses API <code>token</code> to access for required authentication's reso
 <code>curl -H "Authorization: Bearer token" -d data</code>
 
 <aside class="notice">
-You must replace <code>token</code> with your personal API token.
+You must replace <code>token</code> with your personal API key.
 </aside>
 
 ## Get API Token
@@ -299,34 +300,25 @@ curl "http://localhost:8080/oauth/token"
 > Success response 
 
 ```json
-{
-    "access_token": "634fbf89-429c-49cc-8d22-736e801cd313",
+  {
+    "access_token": "7f9471ff-5d7b-4aee-92ca-f13d9c66c37a",
     "token_type": "bearer",
-    "refresh_token": "c8816271-9768-4a4e-9380-6d65b38e2ef1",
+    "refresh_token": "d5b09ce9-0a3a-404b-b754-fcea309256ac",
     "expires_in": 3599,
     "scope": "write"
-}
+  }
 ```
 
-> Failed response if wrong server client id or client secret
+> Failed response
 
 ```json
-{
-    "timestamp": 1434364862416,
-    "status": 401,
-    "error": "Unauthorized",
-    "message": "Bad credentials",
-    "path": "/oauth/token"
-}
-```
-
-> Failed response if wrong user account
-
-```json
-{
-    "error": "invalid_grant",
-    "error_description": "Bad credentials"
-}
+  {
+  "timestamp": 1433945751615,
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Bad credentials",
+  "path": "/oauth/token"
+  }
 ```
 
 ### HTTP Request
@@ -358,34 +350,26 @@ curl "http://localhost:8080/oauth/token"
 > Success response 
 
 ```json
-{
+  {
     "access_token": "0b3e6652-a520-4440-a0e5-ac0c222bdde8",
     "token_type": "bearer",
     "refresh_token": "d5b09ce9-0a3a-404b-b754-fcea309256ac",
     "expires_in": 3599,
     "scope": "write"
-}
+  }
 ```
 
-> Failed Response if wrong server client id or client secret
+> Failed Response
 
 ```json
-{
-    "timestamp": 1434365122623,
+  {
+    "timestamp": 1433945751615,
     "status": 401,
     "error": "Unauthorized",
     "message": "Bad credentials",
     "path": "/oauth/token"
-}
+  }
 ```
-
-> Failed response if wrong refresh token
-
-```json
-{
-    "error": "invalid_grant",
-    "error_description": "Invalid refresh token: <refresh_token>"
-}
 
 ### HTTP Request
 
