@@ -33,4 +33,4 @@ This endpoint will create new relation.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-relationType | New relation type | string
+relationType | New relation type | String

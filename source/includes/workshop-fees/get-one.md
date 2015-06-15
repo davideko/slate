@@ -38,4 +38,4 @@ This endpoint retrieves specific workshop fee.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopFeeId | Workshop fee ID to retrieve | string
+workshopFeeId | Workshop fee ID to retrieve | String

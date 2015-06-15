@@ -30,4 +30,4 @@ This endpoint retrieves specific city.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-cityId | City ID to retrieve | string
+cityId | City ID to retrieve | String

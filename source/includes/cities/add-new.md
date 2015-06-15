@@ -33,4 +33,4 @@ This endpoint will create new city.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-cityName | New city name | string
+cityName | New city name | String

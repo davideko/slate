@@ -46,10 +46,10 @@ This endpoint will update workshop category by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopCategoryId | Workshop category ID to update | string
+workshopCategoryId | Workshop category ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopCategoryType | New workshop category type | string
+workshopCategoryType | New workshop category type | String

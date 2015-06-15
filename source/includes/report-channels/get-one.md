@@ -30,4 +30,4 @@ This endpoint retrieves specific report channel.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-reportChannelId | Report channel ID to retrieve | string
+reportChannelId | Report channel ID to retrieve | String

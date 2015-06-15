@@ -33,4 +33,4 @@ This endpoint will create new bank.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-bankName | New bank name | string
+bankName | New bank name | String

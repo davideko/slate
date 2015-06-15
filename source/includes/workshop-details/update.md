@@ -61,7 +61,7 @@ This endpoint will update workshop detail by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopDetailId | Workshop detail ID to update | string
+workshopDetailId | Workshop detail ID to update | String
 
 ### Parameters
 

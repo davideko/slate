@@ -19,4 +19,4 @@ This endpoint will delete employee by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-employeeId | Employee ID to delete | string
+employeeId | Employee ID to delete | String

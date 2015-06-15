@@ -156,19 +156,19 @@ curl "http://localhost:8080/api/reports"
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-reportDate | Date of report | string
-reportedBy | Name of reporter | string
-reportNote | Report notes (optional) | string
+reportDate | Date of report | String
+reportedBy | Name of reporter | String
+reportNote | Report notes (optional) | String
 ownRisk | Total own risk (calculated) | integer
-reportChannel | Report channel object url | string
-lossCausal | Loss causal object url | string
-premium | Premium object url | string
-survey | Survey object url | string
-claimant | Claimant object url | string
-driver | Driver object url | string
-csEmployee | Employee object url | string
-csStatus | Cs status object url | string
-surveyorEmployee | Employee object url | string
-surveyorStatus | Surveyor object url | string
-workshop | Workshop object url | string
-workshopStatus | Workshop status object url | string
+reportChannel | Report channel object url | String
+lossCausal | Loss causal object url | String
+premium | Premium object url | String
+survey | Survey object url | String
+claimant | Claimant object url | String
+driver | Driver object url | String
+csEmployee | Employee object url | String
+csStatus | Cs status object url | String
+surveyorEmployee | Employee object url | String
+surveyorStatus | Surveyor object url | String
+workshop | Workshop object url | String
+workshopStatus | Workshop status object url | String

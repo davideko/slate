@@ -46,10 +46,10 @@ This endpoint will update Relation by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-relationId | Relation ID to update | string
+relationId | Relation ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-relationType | New relation type | string
+relationType | New relation type | String

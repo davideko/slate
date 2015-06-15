@@ -33,4 +33,4 @@ This endpoint will create new role.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-roleType | New role type | string
+roleType | New role type | String

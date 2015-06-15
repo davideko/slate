@@ -49,10 +49,10 @@ This endpoint will update employee by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-employeeId | Employee ID to update | string
+employeeId | Employee ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-employeeName | New employee name | string
+employeeName | New employee name | String

@@ -52,4 +52,4 @@ cityId | City ID to update | integer
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-cityName | New city name | string
+cityName | New city name | String

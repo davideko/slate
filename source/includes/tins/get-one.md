@@ -31,4 +31,4 @@ This endpoint retrieves specific TIN.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-taxIdentificationNumber | Tax identification number to retrieve | string
+taxIdentificationNumber | Tax identification number to retrieve | String

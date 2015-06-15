@@ -29,4 +29,4 @@ This endpoint retrieves specific workshop category.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopCategoryId | Workshop category ID to retrieve | string
+workshopCategoryId | Workshop category ID to retrieve | String

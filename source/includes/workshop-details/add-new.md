@@ -43,9 +43,9 @@ This endpoint will create new workshop detail.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopManager | New Workshop manager name | string
-workshopManagerHandphone | New workshop manager handphone | string
-financeManager | New finance manager name | string
-financeManagerHandphone | New finance manager handhpone | string
-serviceAdvisorPhone | New service advisor phone string
-serviceAdvisor | New service advisor name | string
+workshopManager | New Workshop manager name | String
+workshopManagerHandphone | New workshop manager handphone | String
+financeManager | New finance manager name | String
+financeManagerHandphone | New finance manager handhpone | String
+serviceAdvisorPhone | New service advisor phone String
+serviceAdvisor | New service advisor name | String

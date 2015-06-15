@@ -65,17 +65,17 @@ This endpoint will update driver by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-driverId | Driver ID to update | string
+driverId | Driver ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-driverName | New driver name | string
-driverAddress | New driver address | string
-driverPhone | New driver phone | string
-driverFax | New driver fax | string
-driverHandphone | New driver phone | string
-driverEmail | New driver email | string
-driverLicenseId | New driver license id | string
+driverName | New driver name | String
+driverAddress | New driver address | String
+driverPhone | New driver phone | String
+driverFax | New driver fax | String
+driverHandphone | New driver phone | String
+driverEmail | New driver email | String
+driverLicenseId | New driver license id | String
 driverLicenseIssueDate | New driver license issue date | datetime

@@ -36,6 +36,6 @@ This endpoint will create new TIN.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-taxIdentificationNumber | New tax identification number | string
-taxIdentificationName | New tax identification name | string
-taxIdentificationAddress | New tax identification address | string
+taxIdentificationNumber | New tax identification number | String
+taxIdentificationName | New tax identification name | String
+taxIdentificationAddress | New tax identification address | String

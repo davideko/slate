@@ -19,4 +19,4 @@ This endpoint will delete relation by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-relationId | Relation ID to delete | string
+relationId | Relation ID to delete | String

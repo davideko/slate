@@ -19,4 +19,4 @@ This endpoint will delete driver by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-driverId | Driver ID to delete | string
+driverId | Driver ID to delete | String

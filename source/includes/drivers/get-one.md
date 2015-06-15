@@ -41,4 +41,4 @@ This endpoint retrieves specific driver.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-driverId | Driver ID to retrieve | string
+driverId | Driver ID to retrieve | String

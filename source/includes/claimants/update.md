@@ -61,16 +61,16 @@ This endpoint will update claimant by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-claimantId | Claimant ID to update | string
+claimantId | Claimant ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-claimantName | New claimant name | string
-claimantAddress | New claimant address | string
-claimantPhone | New claimant phone | string
-claimantFax | New claimant fax | string
-claimantHandphone | New claimant handphone | string
-claimantEmail | New claimant email | string
-relation | Relation object url | string
+claimantName | New claimant name | String
+claimantAddress | New claimant address | String
+claimantPhone | New claimant phone | String
+claimantFax | New claimant fax | String
+claimantHandphone | New claimant handphone | String
+claimantEmail | New claimant email | String
+relation | Relation object url | String

@@ -48,11 +48,11 @@ This endpoint will update TIN by tax identification number.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-taxIdentificatinNumber | Tax identification number to update | string
+taxIdentificatinNumber | Tax identification number to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-taxIdentificationName | New tax identification name | string
-taxIdentificationAddress | New tax identification address | string
+taxIdentificationName | New tax identification name | String
+taxIdentificationAddress | New tax identification address | String

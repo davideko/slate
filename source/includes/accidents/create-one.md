@@ -78,7 +78,7 @@ curl "http://localhost:8080/api/accidents"
 
 Parameter | Description | Format 
 --------- | ----------- | ------ 
-accidentDate | Fill with accident date | String (date)
+accidentDate | Fill with accident date | String (date/datetime)
 accidentLocation | Fill with accident location | String
 vehicleSpeed | Fill with vehicle speed | String
 damage | Fill with damage | String

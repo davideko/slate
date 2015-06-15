@@ -46,10 +46,10 @@ This endpoint update report channel by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-reportChannelId | Report channel ID to update | string
+reportChannelId | Report channel ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-reportChannelType | New report channel type | string
+reportChannelType | New report channel type | String

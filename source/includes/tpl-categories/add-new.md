@@ -33,4 +33,4 @@ This endpoint will create new TPL category.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-tplCategoryType | New TPL category type | string
+tplCategoryType | New TPL category type | String

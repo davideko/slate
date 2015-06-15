@@ -52,4 +52,4 @@ bankId | Bank ID to update | integer
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-bankName | New bank name | string
+bankName | New bank name | String

@@ -33,4 +33,4 @@ This endpoint will create new report channel.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-reportChannelType | New report channel type | string
+reportChannelType | New report channel type | String

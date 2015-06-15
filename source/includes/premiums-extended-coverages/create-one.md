@@ -56,5 +56,5 @@ Parameter | Description | Format
 premiumExtendedCoveragePk | Composite object key | String
 premium | Fill with premium object url id | String
 extendedCoverage | Fill with extended coverage object url id | String
-extendedCoverageBeginningDate | Fill with extended coverage beginning date | String (date)
-extendedCoverageExpiryDate | Fill with extended coverage expiry date | String (date)
+extendedCoverageBeginningDate | Fill with extended coverage beginning date | String (date/datetime)
+extendedCoverageExpiryDate | Fill with extended coverage expiry date | String (date/datetime)

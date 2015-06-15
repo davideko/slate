@@ -19,4 +19,4 @@ This endpoint will delete role by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-roleId | Role ID to delete | string
+roleId | Role ID to delete | String

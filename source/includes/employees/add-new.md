@@ -36,4 +36,4 @@ This endpoint will create new employee.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-employeeName | New employee name | string
+employeeName | New employee name | String

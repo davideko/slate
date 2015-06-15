@@ -40,4 +40,4 @@ This endpoint retrieves specific TPL.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-tplId | TPL ID to retrieve | string
+tplId | TPL ID to retrieve | String

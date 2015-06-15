@@ -52,4 +52,4 @@ roleId | Role ID to update | integer
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-roleType | New role type | string
+roleType | New role type | String

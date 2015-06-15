@@ -19,4 +19,4 @@ This endpoint delete report channel by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-reportChannelId | Report channel ID to update | string
+reportChannelId | Report channel ID to update | String

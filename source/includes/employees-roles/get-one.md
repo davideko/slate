@@ -40,4 +40,4 @@ This endpoint retrieves specific employee role.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-employeeRolePk | Employee role pk to retrieve | string
+employeeRolePk | Employee role pk to retrieve | String

@@ -99,29 +99,29 @@ This endpoint will update workshop by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopId | Workshop ID to update | string
+workshopId | Workshop ID to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopName | New workshop name | string
-workshopAddress | New workshop address | string
-workshopPhone | New workshop phone | string
-workshopFax | New workshop fax | string
-workshopEmail | New workshop email | string
-workshopPic | New workshop pic | string
-workshopPicTitle | New workshop pic title | string
-workshopPicHandphone | New workshop pic handphone | string
+workshopName | New workshop name | String
+workshopAddress | New workshop address | String
+workshopPhone | New workshop phone | String
+workshopFax | New workshop fax | String
+workshopEmail | New workshop email | String
+workshopPic | New workshop pic | String
+workshopPicTitle | New workshop pic title | String
+workshopPicHandphone | New workshop pic handphone | String
 isActive | true / false | boolean
 isSupplier | true / false | boolean
 feeSystemValue | New fee system value | integer
 isOnline | true / false | boolean
 onlineDate | New online date | datetime
-accountNumber | New account number | string
-bank | Bank object url | string
-city | City object url | string
-tin | Tin object url | string
-workshopCategory | Workshop category object url | string
-workshopDetail | Workshop detail object url | string
-workshopFee | Workshop fee object url | string
+accountNumber | New account number | String
+bank | Bank object url | String
+city | City object url | String
+tin | Tin object url | String
+workshopCategory | Workshop category object url | String
+workshopDetail | Workshop detail object url | String
+workshopFee | Workshop fee object url | String

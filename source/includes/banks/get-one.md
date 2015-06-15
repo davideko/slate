@@ -30,4 +30,4 @@ This endpoint retrieves specific bank.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-bankId | Bank ID to retrieve | string
+bankId | Bank ID to retrieve | String

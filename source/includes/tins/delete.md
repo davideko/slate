@@ -19,4 +19,4 @@ This endpoint will delete TIN by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-taxIdentificationNumber | Tax identification number to delete | string
+taxIdentificationNumber | Tax identification number to delete | String

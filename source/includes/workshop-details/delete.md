@@ -19,4 +19,4 @@ This endpoint will delete workshop detail by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopDetailId | Workshop detail ID to delete | string
+workshopDetailId | Workshop detail ID to delete | String

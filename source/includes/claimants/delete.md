@@ -19,4 +19,4 @@ This endpoint will delete claimant by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-claimantId | Claimant ID to delete | string
+claimantId | Claimant ID to delete | String

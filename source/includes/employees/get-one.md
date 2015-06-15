@@ -33,4 +33,4 @@ This endpoint retrieves specific employee.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-employeeId | Employee ID to retrieve | string
+employeeId | Employee ID to retrieve | String

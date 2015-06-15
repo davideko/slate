@@ -39,4 +39,4 @@ This endpoint retrieves specific claimant.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-claimantId | Claimant ID to retrieve | string
+claimantId | Claimant ID to retrieve | String

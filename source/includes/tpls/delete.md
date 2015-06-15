@@ -19,4 +19,4 @@ This endpoint will delete TPL by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-tplId | TPL ID to delete | string
+tplId | TPL ID to delete | String

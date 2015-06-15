@@ -33,4 +33,4 @@ This endpoint will create new workshop category.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopCategoryType | New workshop category type | string
+workshopCategoryType | New workshop category type | String

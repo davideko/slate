@@ -63,17 +63,17 @@ This endpoint will update TPL by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-tplId | TPL id to update | string
+tplId | TPL id to update | String
 
 ### Parameters
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-tplName | New tpl name | string
-tplAddress | New tpl address | string
-tplPhone | New tpl phone | string
-tplPlateNumber | New tpl plate number | string
-tplMake | New tpl make | string
-tplDamage | New tpl damage | string
+tplName | New tpl name | String
+tplAddress | New tpl address | String
+tplPhone | New tpl phone | String
+tplPlateNumber | New tpl plate number | String
+tplMake | New tpl make | String
+tplDamage | New tpl damage | String
 tplValue | New tpl value | integer
-tplCategory | Tpl Category object url | string
+tplCategory | Tpl Category object url | String

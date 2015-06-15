@@ -42,6 +42,6 @@ curl "http://localhost:8080/api/policies"
 
 Parameter | Description | Format
 --------- | ----------- | ------
-policyBeginningDate | Fill with policy beginning date | String (date)
-policyExpiryDate | Fill with policy expiry date | String (date)
+policyBeginningDate | Fill with policy beginning date | String (date/datetime)
+policyExpiryDate | Fill with policy expiry date | String (date/datetime)
 insured | Fill with insured object url id | String

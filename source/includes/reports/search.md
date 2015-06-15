@@ -145,7 +145,7 @@ curl "http://localhost:8080/api/reports/search?query=reportDate:2015-05-08"
 ### URL Parameters
 Parameter | Description | Format
 --------- | ----------- | ---------
-query | Query String | string
+query | Query String | String
 
 <aside class="notice">
   Format Query String: <br /><br />

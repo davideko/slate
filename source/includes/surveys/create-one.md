@@ -40,5 +40,5 @@ curl "http://localhost:8080/api/surveys"
 Parameter | Description | Format 
 --------- | ----------- | ------ 
 surveyAddress | Fill with survey address | String
-surveyDate | Fill with survey date | String (date)
+surveyDate | Fill with survey date | String (date/datetime)
 pendingCausal | Fill with pending causal | String 

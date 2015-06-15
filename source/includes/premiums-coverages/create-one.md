@@ -60,7 +60,7 @@ Parameter | Description | Format
 premiumCoveragePk | Composite object key | String
 premium | Fill with premium object url id | String
 coverage | Fill with coverage object url id | String
-coverageBeginningDate | Fill with coverage beginning date | String (date)
-coverageExpiryDate | Fill with coverage expiry date | String (date)
+coverageBeginningDate | Fill with coverage beginning date | String (date/datetime)
+coverageExpiryDate | Fill with coverage expiry date | String (date/datetime)
 totalSumInsured | Fill with total sum insured value | Numeric
 thirdPartyLiability | Fill with third party liability value | Numeric

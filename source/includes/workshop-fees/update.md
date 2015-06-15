@@ -64,7 +64,7 @@ This endpoint will update workshop fee by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopFeeId | Workshop fee ID to update | string
+workshopFeeId | Workshop fee ID to update | String
 
 ### Parameters
 

@@ -35,4 +35,4 @@ This endpoint retrieves specific workshop detail.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopDetailId | Workshop detail ID to retrieve | string
+workshopDetailId | Workshop detail ID to retrieve | String

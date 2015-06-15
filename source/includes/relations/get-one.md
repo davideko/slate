@@ -30,4 +30,4 @@ This endpoint retrieves specific relation.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-relationId | Relation ID to retrieve | string
+relationId | Relation ID to retrieve | String

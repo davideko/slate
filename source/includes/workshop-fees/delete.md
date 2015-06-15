@@ -19,4 +19,4 @@ This endpoint will delete workshop fee by ID.
 
 Parameter | Description | Format
 --------- | ----------- | ---------
-workshopFeeId | Workshop fee ID to delete | string
+workshopFeeId | Workshop fee ID to delete | String
