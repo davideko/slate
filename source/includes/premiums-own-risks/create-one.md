@@ -43,14 +43,6 @@ curl "http://localhost:8080/api/premiums-own-risks"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `POST http://localhost:8080/api/premiums-own-risks`

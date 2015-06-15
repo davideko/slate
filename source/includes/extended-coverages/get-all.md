@@ -45,14 +45,6 @@ curl "http://localhost:8080/api/extended-coverages"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request 
 
 `GET http://localhost:8080/api/extended-coverages`

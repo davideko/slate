@@ -84,14 +84,6 @@ curl "http://localhost:8080/api/premiums-extended-coverages"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request 
 
 `GET http://localhost:8080/api/premiums-extended-coverages`

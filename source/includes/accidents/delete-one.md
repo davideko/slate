@@ -9,21 +9,7 @@ curl "http://localhost:8080/api/accidents/3f016e51-07db-42ea-b20b-822b0a6eecdb"
   -H "Authorization: Bearer <token>"
 ```
 
-> Success response
-
-```json
-{
-  "message":"deleted"
-}
-```
-
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
+> Success response <code>HTTP 204 No Content</code>
 
 ### HTTP Request
 

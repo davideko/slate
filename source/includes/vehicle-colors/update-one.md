@@ -39,14 +39,6 @@ curl "http://localhost:8080/api/vehicle-colors/1"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `PUT http://localhost:8080/api/vehicle-colors/<vehicleColorId>`

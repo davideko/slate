@@ -24,14 +24,6 @@ curl "http://localhost:8080/api/surveys/2616d6a1-c267-4032-899d-83531665b846"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `GET http://localhost:8080/api/surveys/<surveyId>`

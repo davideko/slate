@@ -13,20 +13,12 @@ curl "http://localhost:8080/api/loss-causals/1"
 
 ```json
 {
-    "lossCausalName": "Item",
+    "lossCausalType": "Item",
     "_links": {
         "self": {
             "href": "http://localhost:8080/api/loss-causals/1"
         }
     }
-}
-```
-
-> Failed response
-
-```json
-{
-  "error": "because"
 }
 ```
 

@@ -50,14 +50,6 @@ curl "http://localhost:8080/api/premiums-own-risks/1ffc0022-6e51-43b3-b4b5-64963
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `PUT http://localhost:8080/api/premiums-own-risks/<compositeId>`

@@ -17,7 +17,7 @@ curl "http://localhost:8080/api/loss-causals"
     "_embedded": {
         "lossCausals": [
             {
-                "lossCausalName": "Item",
+                "lossCausalType": "Item",
                 "_links": {
                     "self": {
                         "href": "http://localhost:8080/api/loss-causals/1"
@@ -26,14 +26,6 @@ curl "http://localhost:8080/api/loss-causals"
             }
         ]
     }
-}
-```
-
-> Failed response
-
-```json
-{
-  "error": "because"
 }
 ```
 

@@ -112,11 +112,11 @@ includes:
   - premiums-own-risks/update-one
   - premiums-own-risks/delete-one
 
-  - premiums-status/get-all
-  - premiums-status/get-one
-  - premiums-status/create-one
-  - premiums-status/update-one
-  - premiums-status/delete-one
+  - premium-statuses/get-all
+  - premium-statuses/get-one
+  - premium-statuses/create-one
+  - premium-statuses/update-one
+  - premium-statuses/delete-one
 
   - surveys/get-all
   - surveys/get-one

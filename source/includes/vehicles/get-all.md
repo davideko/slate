@@ -87,14 +87,6 @@ curl "http://localhost:8080/api/vehicles"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request 
 
 `GET http://localhost:8080/api/vehicles`

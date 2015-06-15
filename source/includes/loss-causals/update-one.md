@@ -22,7 +22,7 @@ curl "http://localhost:8080/api/loss-causals/1"
   -H "Authorization: Bearer <token>"
   -H "Content-Type: application/json"
   -d '{
-        "lossCausalName":"New Item"
+        "lossCausalType":"New Item"
       }'
 ```
 
@@ -30,20 +30,12 @@ curl "http://localhost:8080/api/loss-causals/1"
 
 ```json
 {
-    "lossCausalName": "New Item",
+    "lossCausalType": "New Item",
     "_links": {
         "self": {
             "href": "http://localhost:8080/api/loss-causals/1"
         }
     }
-}
-```
-
-> Failed response
-
-```json
-{
-  "error": "because"
 }
 ```
 
@@ -63,4 +55,4 @@ lossCausalId | Selected loss causal id
 
 Parameter | Description | Format 
 --------- | ----------- | ------ 
-lossCausalName | Fill with loss causal type | String
+lossCausalType | Fill with loss causal type | String

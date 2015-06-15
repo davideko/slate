@@ -37,14 +37,6 @@ curl "http://localhost:8080/api/report-statuses"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request 
 
 `GET http://localhost:8080/api/report-statuses`

@@ -9,21 +9,7 @@ curl "http://localhost:8080/api/coverages/1"
   -H "Authorization: Bearer <token>"
 ```
 
-> Success response
-
-```json
-{
-  "message":"deleted"
-}
-```
-
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
+> Success response <code>HTTP 204 No Content</code>
 
 ### HTTP Request
 

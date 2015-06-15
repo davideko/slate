@@ -47,14 +47,6 @@ curl "http://localhost:8080/api/insureds"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request 
 
 `GET http://localhost:8080/api/insureds`

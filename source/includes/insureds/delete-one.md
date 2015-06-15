@@ -10,21 +10,7 @@ curl "http://localhost:8080/api/insureds/f1466d54-d6bd-4718-9893-3fdba5bce606"
   -H "Authorization: Bearer <token>"
 ```
 
-> Success response
-
-```json
-{
-  "message":"deleted"
-}
-```
-
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
+> Success response <code>HTTP 204 No Content</code>
 
 ### HTTP Request
 

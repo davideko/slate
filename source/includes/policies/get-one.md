@@ -27,14 +27,6 @@ curl "http://localhost:8080/api/policies/2b46fc11-8f45-43ac-a305-fbe1be4b7dae"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `GET http://localhost:8080/api/policies/<policyNumber>`

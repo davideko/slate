@@ -55,14 +55,6 @@ curl "http://localhost:8080/api/accidents/3f016e51-07db-42ea-b20b-822b0a6eecdb"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `GET http://localhost:8080/api/accidents/<accidentId>`

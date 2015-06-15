@@ -84,13 +84,6 @@ curl "http://localhost:8080/api/premiums/search?query=policyNumber:5a0d5fdb-88c8
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
 This endpoint using <code>:</code> as a separator between <code>key</code> and <code>value</code>.
 
 In case that need more than one <code>key</code> you can use <code>,</code> as a separator between <code>key</code>.
@@ -105,8 +98,8 @@ For example:
 
 ### URL Parameters
 
-Parameter | Description
---------- | -----------
+Parameter | Description 
+--------- | ----------- 
 policyNumber | Inserted policy number
 engineNumber | Inserted engine number
 plateNumber | Inserted plate number

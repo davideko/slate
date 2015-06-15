@@ -29,14 +29,6 @@ curl "http://localhost:8080/api/vehicle-assemblies"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request 
 
 `GET http://localhost:8080/api/vehicle-assemblies`

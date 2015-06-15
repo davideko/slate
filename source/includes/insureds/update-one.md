@@ -49,14 +49,6 @@ curl "http://localhost:8080/api/insureds/f1466d54-d6bd-4718-9893-3fdba5bce606"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `PUT http://localhost:8080/api/insureds/<insuredId>`
@@ -71,11 +63,11 @@ insuredId | Selected insured id
 
 ### Parameters
 
-Parameter | Description
---------- | -----------
-insuredName | Fill with insured name
-insuredAddress | Fill with insured address
-insuredPhone | Fill with insured phone
-insuredFax | Fill with insured fax
-insuredHandphone | Fill with insured handphone
-insuredEmail | Fill with insured email
+Parameter | Description | Format
+--------- | ----------- | ------
+insuredName | Fill with insured name | String
+insuredAddress | Fill with insured address | String
+insuredPhone | Fill with insured phone | String
+insuredFax | Fill with insured fax | String
+insuredHandphone | Fill with insured handphone | String
+insuredEmail | Fill with insured email | String

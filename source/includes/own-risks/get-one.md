@@ -22,14 +22,6 @@ curl "href": "http://localhost:8080/api/own-risks/1"
 }
 ```
 
-> Failed response
-
-```json
-{
-  "error": "because"
-}
-```
-
 ### HTTP Request
 
 `GET http://localhost:8080/api/own-risks/<ownRiskId>`
